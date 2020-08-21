@@ -1,0 +1,177 @@
+html,body {
+    margin: 0%;
+}
+header {
+    background-color: whitesmoke;
+    color: rgb(190, 83, 190);
+    height: 62px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    
+    
+}
+#logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    margin-left: 5%;
+
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: -50px;
+    
+  
+    
+
+}
+
+li {
+    float: left;
+    padding: 10 20 10 20;
+    
+
+}
+li:hover {
+    background-color: palegreen;
+}
+
+   
+   
+
+
+
+#imagem_fundo {
+    background: url("img/foto\ das\ crianças.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    
+}
+#título {
+    color: salmon;
+    padding-top:20%;
+    font-size: 50px;
+    line-height: 0.6;
+    text-shadow: 1px 1px white;
+    
+}
+#subtítulo {
+    color: salmon;
+    padding: 3%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    border-top: 2px solid white;
+    text-shadow: 1px 1px white;
+     
+}
+#ação {
+    color:rgb(137, 119, 156);
+    border: 2px white solid;
+    padding: 10px 20px 10px 20px;
+
+    
+    
+}
+
+
+.ícone {
+    width: 50px;
+}
+
+
+
+section {
+    padding: 20px;
+    float: left;
+}
+
+
+.destaque {
+    background-color:whitesmoke;
+    float: left;
+    width: 100%;
+}
+
+
+.img-projetos {
+    width: 50%;
+}
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    
+    
+}
+.dois {
+
+    width: 40%;
+    
+    
+}
+
+.tres {
+    width: 29%;
+    padding: 0% 2%;
+}
+
+.quatro {
+    width: 15%;
+}
+.cinco {
+    width: 20%;
+    padding: 0% 2% ;
+    float: left;
+    background-color: whitesmoke;
+
+}
+.seis {
+    float: right;
+    width: 20%;
+    padding: 0% 2%;
+    background-color: whitesmoke;
+}
+   
+.justificado {
+   
+    text-align: justify;
+}
+
+
+    
+.centralizado {
+    text-align: center;
+
+}
+footer {
+    background-color: rgb(144, 228, 144);
+    float: left;
+    width: 100%;
+}
+@media all and (max-width: 768px) {
+    #menu {
+        visibility: hidden;
+    }
+    .coluna, .dois, .tres, .quatro, .cinco, .seis {
+        display: block;
+        width: 80%;
+        padding: 0%;
+        margin: 10px auto;
+        float: none;
+
+    }
+    #logodiv {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        
+
+    }
+    #logo {
+        margin-left: 0px;
+    }
+}
